@@ -1,0 +1,12 @@
+.btn{
+    background-color: yellow;
+    outline: none;
+    padding: 10px 14px;
+    border-radius: 14px;
+}
+.text-red{
+color: red;
+}
+.textGreen{
+    color: green;
+}

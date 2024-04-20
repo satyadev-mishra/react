@@ -17,7 +17,7 @@ const Home = () => {
           <SelectCountry setSelectCountry={setSelectCountry} />
         </div>
       </main>
-      <CountryList query={query} selectCountry={selectCountry} />
+      {query=='close'?"":<CountryList query={query} selectCountry={selectCountry} />}
     </>
   );
 };
